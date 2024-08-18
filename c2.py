@@ -1,7 +1,7 @@
-______________________________
-┃ kLzDDoS Made by dylanklz   ┃
-┃ COPY = NIGGER              ┃
-______________________________
+##############################
+# ZxCDDoS Made by zxcr9999   #
+# COPY = NIGGER              #
+##############################
 
 import socket
 import os
