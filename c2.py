@@ -10,7 +10,7 @@ import random
 import getpass
 import time
 import sys
-from colorma import Fore
+from colorama import Fore
 
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
