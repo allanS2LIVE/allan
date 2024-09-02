@@ -1,6 +1,6 @@
 <div align=center>
  
-# 🚀 ZxCDDoS: Release v1.5 - Free DDoS Panel 🚀
+#
 
 # Store: https://condi.billgang.store/
 
