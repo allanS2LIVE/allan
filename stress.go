@@ -116,16 +116,16 @@ func init() {
 
 func main() {
 	fmt.Println("|--------------------------------------|")
-	fmt.Println("|   Golang : Server Stress Test Tool   |")
-	fmt.Println("|          C0d3d By Lee0n123           |")
+	fmt.Println("|            DYLAN STRESSED            |")
+	fmt.Println("|       CODED BY OTHER PERSON          |")
 	fmt.Println("|--------------------------------------|")
 	if len(os.Args) != 7 {
 		fmt.Printf("Usage: %s host port mode connections seconds timeout(second)\r\n", os.Args[0])
 		fmt.Println("|--------------------------------------|")
 		fmt.Println("|             Mode List                |")
-		fmt.Println("|     [1] TCP-Connection flood         |")
-		fmt.Println("|     [2] UDP-flood                    |")
-		fmt.Println("|     [3] HTTP-flood(Auto SSL)         |")
+		fmt.Println("|     [1] TCP                          |")
+		fmt.Println("|     [2] UDP                          |")
+		fmt.Println("|     [3] HTTP                         |")
 		fmt.Println("|--------------------------------------|")
 		os.Exit(1)
 	}
